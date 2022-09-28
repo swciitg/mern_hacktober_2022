@@ -1,0 +1,28 @@
+{
+  "name": "spotify-cli",
+  "version": "1.0.0",
+  "description": "Use Spotify from the command line!",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lolzone13/spotify-cli.git"
+  },
+  "author": "lolzone13",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lolzone13/spotify-cli/issues"
+  },
+  "homepage": "https://github.com/lolzone13/spotify-cli#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.1.2",
+    "nanospinner": "^1.1.0"
+  }
+}

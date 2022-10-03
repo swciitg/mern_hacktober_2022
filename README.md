@@ -1,5 +1,7 @@
 # spotify-cli
 
+A CLI tool to work with the spotify api
+
 ## Installation
 
 Clone the repository, cd into the folder and then run

@@ -20,9 +20,12 @@
   "dependencies": {
     "chalk": "^5.0.1",
     "chalk-animation": "^2.0.3",
+    "dotenv": "^16.0.3",
     "figlet": "^1.5.2",
     "gradient-string": "^2.0.2",
     "inquirer": "^9.1.2",
-    "nanospinner": "^1.1.0"
+    "nanospinner": "^1.1.0",
+    "node-fetch": "^3.2.10",
+    "querystring": "^0.2.1"
   }
 }

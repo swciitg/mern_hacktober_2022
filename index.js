@@ -6,7 +6,7 @@ import figlet from 'figlet';
 import { createSpinner } from 'nanospinner';
 
 // import app from './api.js';
-import { getToken, getUserProfile } from './api.js';
+import { getToken, getUserProfile, getUserPlaylists } from './api.js';
 
 const { textSync } = figlet;
 
@@ -58,7 +58,9 @@ async function handleOperation(operation) {
     const spinner = createSpinner(`Processing...`).start();
     await sleep(1000);
     if (operation === 'Show Playlists') {
-      console.log(`Playlists!`);
+      const token = await getToken();
+      const data = await getUserPlaylists(token, username);
+      console.log(data);
 
     }
     else if (operation === 'Me') {
@@ -66,7 +68,7 @@ async function handleOperation(operation) {
       const data = await getUserProfile(token, username);
       console.log(data);
     }
-    if (operation === 'Quit') {
+    else if (operation === 'Quit') {
         spinner.stop({ text: 'Bye!', mark: ':)', color: 'magenta' })
         process.exit(1);
     }
@@ -104,6 +106,12 @@ rainbow.stop();
 
 
 await acceptUsername();
-await operation();
+
+
+while (true) {
+  
+  await operation();
+}
+
 
 

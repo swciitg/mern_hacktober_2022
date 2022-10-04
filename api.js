@@ -50,4 +50,19 @@ const getUserPlaylists = async (token, username) => {
     const data = await response.json();
     return data;
 }
-export { getToken, getUserProfile, getUserPlaylists }
+
+const getPlaylistTracks = async (playlist_id) => {
+    const token = await getToken();
+    const response = await fetch(`https://api.spotify.com/v1/playlists/${playlist_id}/tracks`, {
+        method: 'GET',
+        headers: {
+            'Content-Type' : 'application/json', 
+            'Accept': 'application/json',
+            'Authorization' : 'Bearer ' + token
+        }
+    });
+    const data = await response.json();
+    return data;
+}
+
+export { getToken, getUserProfile, getUserPlaylists, getPlaylistTracks }

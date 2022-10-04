@@ -1,20 +1,52 @@
-# spotify-cli
 
-A CLI tool to work with the spotify api
+# Sports Board Inventory Website
 
-## Installation
+A website to manage and maintain the inventory of sports equipment at IIT Guwahati.
+This is the backend of the website, built with node.js
 
-Clone the repository, cd into the folder and then run
+
+
+
+## Tech Stack
+
+**Client:** React
+
+**Server:** Node, Express, MongoDB
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/swciitg/nodejs_hacktober_2022.git
+```
+
+Go to the project directory
+
+```bash
+  cd nodejs_hacktober_2022
+```
+
+Install dependencies
 
 ```bash
   npm install
 ```
-Then run 
+
+Start the server
 
 ```bash
-  node index
-  ```
-  to run the application.
+  npm run dev
+```
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+- `PORT` : port on which the server would run.
+
 
 ## Contributing
 

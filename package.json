@@ -1,31 +1,31 @@
 {
-  "name": "spotify-cli",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Use Spotify from the command line!",
-  "main": "index.js",
-  "type": "module",
+  "description": "backend for sports board inventory website",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lolzone13/spotify-cli.git"
+    "url": "git+https://github.com/swciitg/nodejs_hacktober_2022.git"
   },
-  "author": "lolzone13",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lolzone13/spotify-cli/issues"
+    "url": "https://github.com/swciitg/nodejs_hacktober_2022/issues"
   },
-  "homepage": "https://github.com/lolzone13/spotify-cli#readme",
+  "type": "module",
+  "homepage": "https://github.com/swciitg/nodejs_hacktober_2022#readme",
   "dependencies": {
-    "chalk": "^5.0.1",
-    "chalk-animation": "^2.0.3",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
-    "figlet": "^1.5.2",
-    "gradient-string": "^2.0.2",
-    "inquirer": "^9.1.2",
-    "nanospinner": "^1.1.0",
-    "node-fetch": "^3.2.10",
-    "querystring": "^0.2.1"
+    "express": "^4.18.1",
+    "mongoose": "^6.6.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }

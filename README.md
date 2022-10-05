@@ -25,21 +25,25 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd nodejs_hacktober_2022
+  cd nodejs_hacktober_2022/backend
+```
+or
+```bash
+  cd nodejs_hacktober_2022/frontend
 ```
 
-Install dependencies
+Install dependencies in both backend and frontend directories using
 
 ```bash
   npm install
 ```
 
-Start the server
+cd into the backend directory and use the command
 
 ```bash
   npm run dev
 ```
-
+to run both the frontend and backend concurrently.
 
 ## Environment Variables
 

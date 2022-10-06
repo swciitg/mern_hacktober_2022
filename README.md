@@ -49,6 +49,7 @@ to run both the frontend and backend concurrently.
 To run this project, you will need to add the following environment variables to your .env file
 
 - `PORT` : port on which the server would run.
+- `MONGODB_URI`: connection string for the mongodb database.
 
 
 ## Contributing

@@ -2,7 +2,6 @@
 # Sports Board Inventory Website
 
 A website to manage and maintain the inventory of sports equipment at IIT Guwahati.
-This is the backend of the website, built with node.js
 
 
 

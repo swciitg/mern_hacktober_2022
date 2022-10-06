@@ -12,6 +12,9 @@ A website to manage and maintain the inventory of sports equipment at IIT Guwaha
 
 **Server:** Node, Express, MongoDB
 
+## Design
+Click [here](https://www.figma.com/file/hiuxJApMNCY5Hs60c64FNC/Sports-Board-Management-System) for the designs of the portal in figma.
+
 
 ## Run Locally
 

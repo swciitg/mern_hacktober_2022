@@ -1,9 +1,10 @@
+import Header from "./components/Header/Header";
 
 
 function App() {
   return (
     <div>
-      Happy Hactober Fest!!
+      <Header />
     </div>
   );
 }

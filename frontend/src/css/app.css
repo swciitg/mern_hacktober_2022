@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    Font families
+
+*/
+@font-face {
+  font-family: Inter;
+  src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.content {
+    flex: 0.7;
+}
+
+
+/*
+    Sidebar Components
+        .sidebar
+        #sportsboard
+        .nav
+*/
+
+.sidebar {
+    flex: 0.3;
+    background-color: #FF936B33;
+    padding-top: 80px;
+}
+
+#sportsboard {
+    font-family: Inter;
+    font-weight: 500;
+    color: #FF9670;
+    font-size: 42px;
+    text-align: center;
+    height: 50px;
+    padding-bottom: 86px;
+}
+
+.nav {
+    list-style: none;
+    padding: none;
+}
+
+.nav li {
+    font-family: Inter;
+    font-size: 22px;
+    color: #FF9670;
+    padding: 20px 0;
+    font-weight: 500;
+    width: 306px;
+    height: 70px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+
+/* Only for providing a template for selected option */
+#nav_admin {
+    background: #FF9670;
+    border-radius: 14px;
+    color: white;
+}

@@ -1,9 +1,10 @@
-
+import Main from "./screens/Main"
+import "./css/app.css"
 
 function App() {
   return (
     <div>
-      Happy Hactober Fest!!
+      <Main />
     </div>
   );
 }

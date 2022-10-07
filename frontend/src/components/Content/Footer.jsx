@@ -1,7 +1,7 @@
 export default () => {
     return (
-        <div className="content">
-            Content
+        <div className="content_footer">
+            
         </div>
     )
 }

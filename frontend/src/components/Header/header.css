@@ -5,28 +5,12 @@
   padding: 1.3rem 3rem;
 }
 
-.left {
+.header_txt {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 30px;
-  /* identical to box height, or 136% */
-
   letter-spacing: 0.0322em;
-
-  color: #1f1f1f;
-}
-.right {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 30px;
-  /* identical to box height, or 136% */
-
-  text-align: center;
-  letter-spacing: 0.0322em;
-
   color: #1f1f1f;
 }

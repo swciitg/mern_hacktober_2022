@@ -2,14 +2,12 @@ import React from 'react'
 import "./header.css"
 const Header = () => {
     return (
-        <div>
-            <div className="header">
-                <div className="left">
-                    <span>Hi, Dongre Arindam Rajiv</span>
-                </div>
-                <div className="right">
-                    <span>Signout</span>
-                </div>
+        <div className="header">
+            <div className="left">
+                <span className='header_txt'>Hi, Dongre Arindam Rajiv</span>
+            </div>
+            <div className="right">
+                <span className='header_txt signout'>Signout</span>
             </div>
         </div>
     )

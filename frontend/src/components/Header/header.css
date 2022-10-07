@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   background: #ffffff;
-  padding: 1.3rem 3rem;
+  padding: 1.5rem 3rem;
+  flex: 6;
 }
 
 .header_txt {

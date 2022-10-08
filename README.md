@@ -61,4 +61,4 @@ See `contributing.md` for ways to get started.
 
 ## Join us on social media
 
-[Discord](https://discord.com/invite/h2Q4MNBWe2) | [Facebook](https://www.facebook.com/swciitg/) | [LinkedIn](https://www.linkedin.com/company/student-s-web-committee-iitg/mycompany/)
+[Discord](https://discord.gg/djNKYdge2a) | [Facebook](https://www.facebook.com/swciitg/) | [LinkedIn](https://www.linkedin.com/company/student-s-web-committee-iitg/mycompany/)

@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 1.5rem 3rem;
+  flex: 6;
+}
+
+.header_txt {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.0322em;
+  color: #1f1f1f;
+}

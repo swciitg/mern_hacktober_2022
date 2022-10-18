@@ -22,16 +22,17 @@ Click [here](https://www.figma.com/file/hiuxJApMNCY5Hs60c64FNC/Sports-Board-Mana
   ```
 
 2. Go to the project directory
-  ```bash
-     cd nodejs_hacktober_2022/backend
-  ```
-  
-   or
-  
-  ```bash
-     cd nodejs_hacktober_2022/frontend
-   ```
- 
+
+    for Backend
+    ```bash
+       cd nodejs_hacktober_2022/backend
+    ```
+
+    for Frontend
+    ```bash
+       cd nodejs_hacktober_2022/frontend
+    ```
+
  3. Install dependencies in both backend and frontend directories using
    ```bash
       npm install

@@ -1,6 +1,6 @@
 # Sports Board Inventory Website ⛳
 
-A website for managing and maintaining IIT Guwahati's sports equipment inventory.
+A website to manage and maintain the inventory of sports equipment at IIT Guwahati.
 
 ## Tech Stack 🛠️
 

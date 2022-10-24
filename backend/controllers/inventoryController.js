@@ -34,4 +34,30 @@ export const createInventory = async (req, res, next) => {
   }
 };
 
+export const updateInventory = async (req, res, next) => {
+  try {
+    const inventory = await Inventory.findByIdAndUpdate(
+      req.params.id,
+      req.body,
+      {
+        new: true, // also return the new field
+        runValidators: true, // do a validation check in any
+      }
+    );
+
+    res.status(200).json({
+      status: "success",
+      data: {
+        inventory,
+      },
+    });
+  } catch (err) {
+    return res.status(500).json({
+      success: false,
+      error: "Server Error",
+      msg: err,
+    });
+  }
+};
+
 //export { getAllInventory }
